@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Schedule</class>
+ <widget class="QMainWindow" name="Schedule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>740</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>680</width>
+    <height>740</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>680</width>
+    <height>740</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="mainWidget">
+   <widget class="QLabel" name="mondayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>01.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tuesdayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>02.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wednesdayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>03.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="thursdayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>04.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fridayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>05.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saturdayDateLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>06.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sundayDateLabel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>07.02</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>300</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>400</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>500</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayDateLabel_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>600</y>
+      <width>70</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ПН</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>25</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>75</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>125</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>175</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>375</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>225</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>275</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>325</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>250</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>600</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_18">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>400</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_19">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>475</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_20">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>550</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_21">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>575</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_22">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>625</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>650</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_24">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>425</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_25">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>675</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_26">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>500</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_27">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>525</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_28">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>450</y>
+      <width>500</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Стилистика, ЛК</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>0</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox::indicator {width: 25px; height: 25px;};</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>25</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>50</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>75</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_5">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>100</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>300</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>0</y>
+      <width>3</width>
+      <height>750</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>680</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
