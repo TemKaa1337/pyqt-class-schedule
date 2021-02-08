@@ -44,10 +44,6 @@ class ScheduleParser:
     }
     current_day = ''
 
-    def __init__(self, schedule_path):
-        if schedule_path is not None:
-            self.schedule_path = schedule_path
-
     def parse_schedule(self):
         skip_row = True
         book = xlrd.open_workbook(self.schedule_path)
@@ -66,15 +62,9 @@ class ScheduleParser:
                 self.add_classes_info(sheet.row(rx))
 
     def add_classes_info(self, row_info):
-        self.schedule[self.current_day] = {'time': [], 'class': []}
-        self.schedule[self.current_day]['time'] = [row_info[1].value]
-        self.schedule[self.current_day]['class'] = [row_info[2].value.split('\n')[0]]
+        self.schedule[self.current_day]['time'].append(row_info[1].value)
+        self.schedule[self.current_day]['class'].append(row_info[2].value.split('\n')[0])
 
     def get_schedule(self):
         return self.schedule
 
-
-if __name__ == '__main__':
-    parser = ScheduleParser()
-    parser.parse_schedule()
-    print(parser.get_schedule())

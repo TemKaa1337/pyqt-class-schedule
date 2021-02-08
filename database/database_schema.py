@@ -1,4 +1,4 @@
-from db import Database
+from .db import Database
 
 
 class DatabaseSchema:
@@ -10,7 +10,7 @@ class DatabaseSchema:
     schema = [
         '''
             CREATE TABLE default_schedule (
-                id integer PRIMARY KEY,
+                id integer PRIMARY KEY AUTOINCREMENT ,
                 monday text,
                 tuesday text,
                 wednesday text,
@@ -22,7 +22,7 @@ class DatabaseSchema:
         ''',
         '''
             CREATE TABLE current_schedule (
-                id integer PRIMARY KEY,
+                id integer PRIMARY KEY AUTOINCREMENT ,
                 date text,
                 monday text,
                 tuesday text,
@@ -35,7 +35,7 @@ class DatabaseSchema:
         ''',
         '''
             CREATE TABLE class_translations (
-                id integer PRIMARY KEY,
+                id integer PRIMARY KEY AUTOINCREMENT ,
                 name text NOT NULL,
                 translation text NOT NULL
             );
@@ -59,7 +59,3 @@ class DatabaseSchema:
         self.down()
         self.up()
 
-
-if __name__ == '__main__':
-    seeder = DatabaseSchema()
-    seeder.refresh()

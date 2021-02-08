@@ -1,18 +1,17 @@
-from ..Controller.schedule_parser import ScheduleParser
+import json
+from .db import Database
 
 
 class DatabaseSeeder:
+    def __init__(self, schedule):
+        self.schedule = schedule
+        self.db = Database()
+
     def seed(self):
-        query = list()
-        parser = ScheduleParser()
-        parser.parse_schedule()
-        schedule = parser.get_schedule()
+        query = tuple()
 
-        for day in schedule:
-            for i in range(schedule[day]):
-                a = 1
+        for day in self.schedule:
+            query += (json.dumps({'time': self.schedule[day]['time'], 'class': self.schedule[day]['class']}), )
 
-
-if __name__ == '__main__':
-    seeder = DatabaseSeeder()
-    seeder.seed()
+        self.db.cursor.execute("insert into default_schedule (monday, tuesday, wednesday, thursday, friday, saturday, sunday) values (?, ?, ?, ?, ?, ?, ?);", query)
+        self.db.connection.commit()
