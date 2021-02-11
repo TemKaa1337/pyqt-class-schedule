@@ -37,7 +37,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -60,7 +60,7 @@
      <rect>
       <x>0</x>
       <y>100</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -83,7 +83,7 @@
      <rect>
       <x>0</x>
       <y>200</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -106,7 +106,7 @@
      <rect>
       <x>0</x>
       <y>300</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -129,7 +129,7 @@
      <rect>
       <x>0</x>
       <y>400</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -152,7 +152,7 @@
      <rect>
       <x>0</x>
       <y>500</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -178,7 +178,7 @@
      <rect>
       <x>0</x>
       <y>600</y>
-      <width>70</width>
+      <width>61</width>
       <height>100</height>
      </rect>
     </property>
@@ -205,9 +205,9 @@
    <widget class="QLabel" name="mondayDateLabel_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>0</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -231,9 +231,9 @@
    <widget class="QLabel" name="mondayDateLabel_3">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>100</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -245,7 +245,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>ВТ</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -257,9 +257,9 @@
    <widget class="QLabel" name="mondayDateLabel_4">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>200</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -271,7 +271,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>СР</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -283,9 +283,9 @@
    <widget class="QLabel" name="mondayDateLabel_5">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>300</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -297,7 +297,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>ЧТ</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -309,9 +309,9 @@
    <widget class="QLabel" name="mondayDateLabel_6">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>400</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -323,7 +323,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>ПТ</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -335,9 +335,9 @@
    <widget class="QLabel" name="mondayDateLabel_7">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>500</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -349,7 +349,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>СБ</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -361,9 +361,9 @@
    <widget class="QLabel" name="mondayDateLabel_8">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>600</y>
-      <width>70</width>
+      <width>31</width>
       <height>100</height>
      </rect>
     </property>
@@ -375,7 +375,7 @@
      </font>
     </property>
     <property name="text">
-     <string>ПН</string>
+     <string>ВС</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -384,12 +384,12 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="mondayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>0</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -397,12 +397,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="mondayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>25</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -410,12 +410,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="mondayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>50</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -423,12 +423,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="mondayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>75</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -436,12 +436,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="tuesdayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>100</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -449,12 +449,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="tuesdayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>125</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -462,12 +462,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="tuesdayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>175</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -475,12 +475,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="tuesdayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>150</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -488,12 +488,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="wednesdayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>200</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -501,12 +501,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="thursdayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>300</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -514,12 +514,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="thursdayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>375</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -527,12 +527,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="wednesdayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>225</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -540,12 +540,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="wednesdayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>275</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -553,12 +553,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="thursdayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>325</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -566,12 +566,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="wednesdayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>250</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -579,12 +579,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="thursdayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>350</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -592,12 +592,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="sundayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>600</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -605,12 +605,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="fridayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>400</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -618,12 +618,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_19">
+   <widget class="QPushButton" name="fridayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>475</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -631,12 +631,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_20">
+   <widget class="QPushButton" name="saturdayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>550</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -644,12 +644,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_21">
+   <widget class="QPushButton" name="saturdayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>575</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -657,12 +657,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_22">
+   <widget class="QPushButton" name="sundayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>625</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -670,12 +670,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_23">
+   <widget class="QPushButton" name="sundayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>650</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -683,12 +683,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_24">
+   <widget class="QPushButton" name="fridayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>425</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -696,12 +696,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_25">
+   <widget class="QPushButton" name="sundayClassButton_4">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>675</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -709,12 +709,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_26">
+   <widget class="QPushButton" name="saturdayClassButton_1">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>500</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -722,12 +722,12 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_27">
+   <widget class="QPushButton" name="saturdayClassButton_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>525</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
@@ -735,120 +735,17 @@
      <string>Стилистика, ЛК</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_28">
+   <widget class="QPushButton" name="fridayClassButton_3">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>175</x>
       <y>450</y>
-      <width>500</width>
+      <width>465</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>0</y>
-      <width>25</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>25</width>
-      <height>25</height>
-     </size>
-    </property>
-    <property name="maximumSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="sizeIncrement">
-     <size>
-      <width>0</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="baseSize">
-     <size>
-      <width>0</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QCheckBox::indicator {width: 25px; height: 25px;};</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>25</width>
-      <height>25</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_2">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>25</y>
-      <width>25</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_3">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>50</y>
-      <width>25</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_4">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>75</y>
-      <width>25</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_5">
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>100</y>
-      <width>25</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
     </property>
    </widget>
    <widget class="Line" name="line">
@@ -932,7 +829,7 @@
    <widget class="Line" name="line_7">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>61</x>
       <y>0</y>
       <width>3</width>
       <height>750</height>
@@ -940,6 +837,1055 @@
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mondayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>3</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mondayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>28</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mondayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>53</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="mondayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>78</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tuesdayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>103</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tuesdayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>128</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tuesdayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>153</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="tuesdayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>178</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="wednesdayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>203</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="wednesdayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>228</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="wednesdayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>278</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="wednesdayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>253</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="thursdayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>328</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="thursdayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>378</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="thursdayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>303</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="thursdayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>353</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fridayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>453</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fridayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>403</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fridayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>478</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fridayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>428</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="saturdayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>578</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="saturdayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>503</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="saturdayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>553</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="saturdayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>528</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sundayCheckBox_1">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>603</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sundayCheckBox_3">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>653</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sundayCheckBox_4">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>678</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sundayCheckBox_2">
+    <property name="geometry">
+     <rect>
+      <x>642</x>
+      <y>628</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>92</x>
+      <y>0</y>
+      <width>3</width>
+      <height>750</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>0</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>50</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>25</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mondayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>75</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tuesdayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>125</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tuesdayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>100</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tuesdayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>150</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tuesdayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>175</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="thursdayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>325</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wednesdayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>225</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="thursdayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>300</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wednesdayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>200</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wednesdayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>250</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="thursdayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>375</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="thursdayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>350</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wednesdayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>275</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fridayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>425</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saturdayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>500</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fridayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>400</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sundayTimeLabel_1">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>600</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sundayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>675</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sundayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>650</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sundayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>625</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fridayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>475</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fridayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>450</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saturdayTimeLabel_4">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>575</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saturdayTimeLabel_3">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>550</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saturdayTimeLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>95</x>
+      <y>525</y>
+      <width>83</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>13:00-14:20</string>
     </property>
    </widget>
   </widget>

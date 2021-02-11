@@ -11,7 +11,11 @@ class DatabaseSeeder:
         query = tuple()
 
         for day in self.schedule:
-            query += (json.dumps({'time': self.schedule[day]['time'], 'class': self.schedule[day]['class']}), )
+            temp = {}
+            for class_schedule in self.schedule[day]['class']:
+                temp[class_schedule] = {'checked': False, 'task': ''}
+
+            query += (json.dumps({'time': self.schedule[day]['time'], 'class': temp}), )
 
         self.db.cursor.execute("insert into default_schedule (monday, tuesday, wednesday, thursday, friday, saturday, sunday) values (?, ?, ?, ?, ?, ?, ?);", query)
         self.db.connection.commit()
