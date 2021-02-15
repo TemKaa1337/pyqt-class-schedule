@@ -7,19 +7,19 @@
     <x>0</x>
     <y>0</y>
     <width>680</width>
-    <height>740</height>
+    <height>780</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>680</width>
-    <height>740</height>
+    <height>780</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>680</width>
-    <height>740</height>
+    <height>780</height>
    </size>
   </property>
   <property name="baseSize">
@@ -396,6 +396,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="mondayClassButton_2">
     <property name="geometry">
@@ -408,6 +414,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="mondayClassButton_3">
@@ -422,6 +434,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="mondayClassButton_4">
     <property name="geometry">
@@ -434,6 +452,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
     </property>
    </widget>
    <widget class="QPushButton" name="tuesdayClassButton_1">
@@ -448,6 +472,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="tuesdayClassButton_2">
     <property name="geometry">
@@ -460,6 +490,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="tuesdayClassButton_4">
@@ -474,6 +510,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="tuesdayClassButton_3">
     <property name="geometry">
@@ -486,6 +528,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>1</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
     </property>
    </widget>
    <widget class="QPushButton" name="wednesdayClassButton_1">
@@ -500,6 +548,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="thursdayClassButton_1">
     <property name="geometry">
@@ -512,6 +566,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
     </property>
    </widget>
    <widget class="QPushButton" name="thursdayClassButton_4">
@@ -526,6 +586,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="wednesdayClassButton_2">
     <property name="geometry">
@@ -538,6 +604,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="wednesdayClassButton_4">
@@ -552,6 +624,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="thursdayClassButton_2">
     <property name="geometry">
@@ -564,6 +642,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="wednesdayClassButton_3">
@@ -578,6 +662,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>2</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="thursdayClassButton_3">
     <property name="geometry">
@@ -590,6 +680,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>3</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
     </property>
    </widget>
    <widget class="QPushButton" name="sundayClassButton_1">
@@ -604,6 +700,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="fridayClassButton_1">
     <property name="geometry">
@@ -616,6 +718,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
     </property>
    </widget>
    <widget class="QPushButton" name="fridayClassButton_4">
@@ -630,6 +738,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="saturdayClassButton_3">
     <property name="geometry">
@@ -642,6 +756,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
     </property>
    </widget>
    <widget class="QPushButton" name="saturdayClassButton_4">
@@ -656,6 +776,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="sundayClassButton_2">
     <property name="geometry">
@@ -668,6 +794,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="sundayClassButton_3">
@@ -682,6 +814,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="fridayClassButton_2">
     <property name="geometry">
@@ -694,6 +832,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
     </property>
    </widget>
    <widget class="QPushButton" name="sundayClassButton_4">
@@ -708,6 +852,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>6</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>3</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="saturdayClassButton_1">
     <property name="geometry">
@@ -720,6 +870,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>0</number>
     </property>
    </widget>
    <widget class="QPushButton" name="saturdayClassButton_2">
@@ -734,6 +890,12 @@
     <property name="text">
      <string>Стилистика, ЛК</string>
     </property>
+    <property name="day_number" stdset="0">
+     <number>5</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>1</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="fridayClassButton_3">
     <property name="geometry">
@@ -746,6 +908,12 @@
     </property>
     <property name="text">
      <string>Стилистика, ЛК</string>
+    </property>
+    <property name="day_number" stdset="0">
+     <number>4</number>
+    </property>
+    <property name="class_number" stdset="0">
+     <number>2</number>
     </property>
    </widget>
    <widget class="Line" name="line">
@@ -832,7 +1000,7 @@
       <x>61</x>
       <y>0</y>
       <width>3</width>
-      <height>750</height>
+      <height>700</height>
      </rect>
     </property>
     <property name="orientation">
@@ -1377,7 +1545,7 @@
       <x>92</x>
       <y>0</y>
       <width>3</width>
-      <height>750</height>
+      <height>700</height>
      </rect>
     </property>
     <property name="orientation">
@@ -1886,6 +2054,45 @@
     </property>
     <property name="text">
      <string>13:00-14:20</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_9">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>700</y>
+      <width>680</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextWeekButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>710</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Следующая неделя</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="prevWeekButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>710</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Предыдущая неделя</string>
     </property>
    </widget>
   </widget>

@@ -23,7 +23,7 @@ class DatabaseSchema:
         '''
             CREATE TABLE current_schedule (
                 id integer PRIMARY KEY AUTOINCREMENT ,
-                date text,
+                date text type UNIQUE,
                 monday text,
                 tuesday text,
                 wednesday text,

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeWorkForm</class>
+ <widget class="QWidget" name="HomeWorkForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="saveHWButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сохранить д/з</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearHWButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Очистить д/з</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="homeworkArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>381</width>
+     <height>239</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>Д/З</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
