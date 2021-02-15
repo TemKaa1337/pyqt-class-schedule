@@ -1,5 +1,6 @@
-from PyQt5.QtWidgets import QPushButton, QWidget, QVBoxLayout, QLabel
+from PyQt5.QtWidgets import QPushButton, QWidget, QMessageBox
 import sys
+import json
 from View.compiled.homework import Ui_HomeWorkForm
 
 
@@ -17,8 +18,21 @@ class ClassHomework(QWidget):
         self.ui.clearHWButton.clicked.connect(self.clear_area)
 
     def save_homework(self):
-
-        pass
+        self.save_task(self.ui.homeworkArea.toPlainText())
+        QMessageBox.about(self, "", "Домашка сохранена!!!")
 
     def clear_area(self):
-        pass
+        self.ui.homeworkArea.setPlainText('')
+        self.save_task('')
+        QMessageBox.about(self, "", "Домашка очищена и сохранена!!!")
+
+    def save_task(self, text):
+        class_info = json.loads(self.main.class_info[self.day_number])
+        classes_in_day = [f for f in class_info['class'].keys()]
+
+        if self.class_number < len(classes_in_day):
+            class_info['class'][classes_in_day[self.class_number]]['task'] = text
+            self.main.class_info = list(self.main.class_info)
+            self.main.class_info[self.day_number] = json.dumps(class_info)
+            self.main.class_info = tuple(self.main.class_info)
+            self.main.update_schedule()

@@ -13,7 +13,3 @@ class InitializeProject:
         seeder = Seeder(schedule_info)
         seeder.seed()
 
-
-if __name__ == '__main__':
-    initialize = InitializeProject()
-    initialize.initialize()

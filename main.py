@@ -6,6 +6,7 @@ from View.compiled.schedule import Ui_Schedule
 from Controller.schedule_render import SchedulerRender
 from database.db import Database
 from class_hw import ClassHomework
+from initialize import InitializeProject
 
 
 class ApplicationWindow(QtWidgets.QMainWindow):
@@ -24,6 +25,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.db = Database()
         self.ui = Ui_Schedule()
         self.ui.setupUi(self)
+        self.check_for_first_exec()
         self.ui.prevWeekButton.clicked.connect(self.render_prev_week)
         self.ui.nextWeekButton.clicked.connect(self.render_next_week)
         self.render_controller = SchedulerRender(self.db)
@@ -38,6 +40,14 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
             property = getattr(self.ui, self.day_translation[day_number] + 'ClassButton_' + str(class_number))
             property.clicked.connect(self.class_clicked)
+
+    def check_for_first_exec(self):
+        try:
+            self.db.cursor.execute('select * from default_schedule;');
+        except:
+            init = InitializeProject()
+            init.initialize()
+
 
     def render_prev_week(self):
         new_date = datetime.strptime(self.render_controller.current_week.split('-')[0], '%d.%m.%Y') - timedelta(7)
@@ -74,7 +84,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         class_info = json.loads(self.class_info[day_number])
         classes_in_day = [f for f in class_info['class'].keys()]
 
-        if classes_in_day:
+        if classes_in_day and class_number < len(classes_in_day):
             self.class_hw = ClassHomework(day_number, class_number, class_info['class'][classes_in_day[class_number]]['task'], classes_in_day[class_number], self)
             self.class_hw.show()
 
