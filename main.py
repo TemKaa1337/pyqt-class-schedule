@@ -43,7 +43,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
     def check_for_first_exec(self):
         try:
-            self.db.cursor.execute('select * from default_schedule;');
+            self.db.cursor.execute('select * from default_schedule;')
         except:
             init = InitializeProject()
             init.initialize()

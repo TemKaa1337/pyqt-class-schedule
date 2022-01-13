@@ -1,8 +1,9 @@
 import xlrd
+import os
+import sys
 
 
 class ScheduleParser:
-    schedule_path = 'C:\\Users\\Admin\\Desktop\\MYPROJECTS\\pyqt-class-schedule\\files\\scheduleGroup.xls'
     days_translations = {
         'ПН': 'monday',
         'ВТ': 'tuesday',
@@ -43,6 +44,9 @@ class ScheduleParser:
         },
     }
     current_day = ''
+
+    def __init__(self):
+        self.schedule_path = os.path.join(os.path.dirname(__file__), '../files/scheduleGroup.xls')
 
     def parse_schedule(self):
         skip_row = True
