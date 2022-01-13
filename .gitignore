@@ -1,5 +1,5 @@
-.idea/
-Controller/__pycache__/
-database/__pycache__/
-View/compiled/__pycache__/
-__pycache__/
+/.idea/
+/Controller/__pycache__/
+/database/__pycache__/
+/View/compiled/__pycache__/
+/__pycache__/
